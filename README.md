@@ -7,7 +7,9 @@ ankan1811@gmail.com
 Abstract
 Real-time object detection and tracking is a vast, vibrant yet inconclusive and complex area of computer vision. Due to its increased utilization in surveillance, tracking system used in security and many others applications have propelled researchers to continuously devise more efficient and competitive algorithms. The latest research on this area has been making great progress in many directions.  In the current manuscript, we give an overview of the necessity of object detection in today’s computing systems, outline the current main research directions, discuss on how our API algorithm works, and discuss open problems and possible future directions.
 Key words: - Object Detection, Computer Vision, Tracking Systems, API algorithm
+
 I. INTRODUCTION
+
 A.What is object detection?
 Given an image or a video stream, an object detection model can identify which of a known set of objects might be present and provide information about their positions within the image.
 An object detection model is trained to detect the presence and location of multiple classes of objects. For example, a model might be trained with images that contain various pieces of fruit, along with a label that specifies the class of fruit they represent (e.g. an apple, a banana, or a strawberry), and data specifying where each object appears in the image.
