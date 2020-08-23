@@ -14,7 +14,7 @@ Fig 1.Still Image Object Detection By Ankan:
 
 
 
-![](Images/image003.jpg)
+![](Images/live%20webcam.png)
 
 Fig 2.Live Webcam Object Detection of Anik (Ankan's friend)
 
