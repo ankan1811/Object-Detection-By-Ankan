@@ -39,7 +39,7 @@ For example, in the following image, a pear (which is not an object that the mod
 
 Fig 3.Still Image Object Detection
 
-![](Images/hqdefault.jpg)
+![](Images/1_KkAZPEPkBNQYTXSFcXwEzA.png)
 
 Fig 4.Live Webcam Object Detection
 
