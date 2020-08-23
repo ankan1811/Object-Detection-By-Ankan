@@ -61,17 +61,19 @@ Typically, we follow three steps when building an object detection framework:
 That’s it – we are ready with your first object detection framework!
 
 A. Packages to be installed:
-      1. pip install protobuf
-      2. pip install pillow
-      3. pip install lxml
-      4. pip install Cython
-      5. pip install jupyter
-      6. pip install matplotlib
-      7. pip install pandas
-      8. pip install opencv-python 
-      9. pip install tensorflow
+
+  1. pip install protobuf
+  2. pip install pillow
+  3. pip install lxml
+  4. pip install Cython
+  5. pip install jupyter
+  6. pip install matplotlib
+  7. pip install pandas
+  8. pip install opencv-python 
+  9. pip install tensorflow
 
 #B. What is an API? Why do we need an API?
+
 API stands for Application Programming Interface. An API provides developers a set of common operations so that they don’t have to write code from scratch.
 In one sense, APIs are great time savers. They also offer users convenience in many cases. Think about it – Facebook users (including myself!) appreciate the ability to sign into many apps and sites using their Facebook ID. How do you think this works? Using Facebook’s APIs of course!
 So in this article, we will look at the TensorFlow API developed for the task of object detection.
@@ -120,34 +122,63 @@ E. How to load the model?
 Start
 
 Step 1: First asking pip to install-U--pretensorflow=="2.*"
+
 Step 2: Then ask pip to installpycocotools package.
+
 Step 3: We have to importos and pathlib packages.
+
 Step 4: Checking if"models"inpathlib.Path.cwd().parts, then Step 5.
+
 Step 5: while"models"inpathlib.Path.cwd().parts,then Step 6.
+
 Step 6: os.chdir('..')
+
 Step 7: else ifnotpathlib.Path('models').exists(), then Step 8.
+
 Step 8: gitclone--depth1https://github.com/tensorflow/models
+
 Step 9: Compile protobufs and install the object_detection package
+
 Step 10: importnumpyasnp,os,six.moves.urllibasurllib, sys, tarfile,tensorflowastf, zipfile.
+
 Step 11: Then fromcollectionsimportdefaultdict
+
 Step 12: Then fromioimportStringIO
+
 Step 13: frommatplotlibimportpyplotasplt
+
 Step 14: fromPILimportImage
+
 Step 15: fromIPython.displayimportdisplay
+
 Step 16: Then fromobject_detection.utilsimportopsasutils_ops.
+
 Step 17: Then fromobject_detection.utilsimportlabel_map_util.
+
 Step 18: Then fromobject_detection.utilsimportvisualization_utilsasvis_util.
+
 Step 19: Defining function load_model(model_name)
+
 Step 20: base_url = 'http://download.tensorflow.org/models/object_detection/'
+
 Step 21: model_file = model_name + '.tar.gz'
+
 Step 22: model_dir = tf.keras.utils.get_file(
+
 Step 23: fname=model_name,
+
 Step 24: origin=base_url + model_file,
+
 Step 25: untar=True)
+
 Step 26: model_dir = pathlib.Path(model_dir)/"saved_model"
+
 Step 27: model = tf.saved_model.load(str(model_dir))
+
 Step 28: model = model.signatures['serving_default']
+
 Step 29: return model
+
 Step 30: Thus after loading model, we go to step 31.
 Step 31: Label maps map indices to category names so that when our convolution network predicts 5, we know that this corresponds to an airplane:
 Step 32: For the sake of simplicity, we will test on 2 images:
@@ -157,11 +188,13 @@ Step 35: Add a wrapper function to call the model and clean up the outputs
 Step 36: Run it on each test image and show the results
 End.
 
-IV. RESULTS
+IV. RESULTS:
+
 We feed the input image to the Object Detection API to generate a convolutional feature map. From the convolutional feature map, we identify the region of proposals and warp them into squares. And by using an RoI (Region of Interest layer) pooling layer, we reshape them into a fixed size so that it can be fed into a fully connected layer.
 
 
-V. FUTURE SCOPE
+V. FUTURE SCOPE:
+
 The object detection tutorial is fully done in jupyter notebook based on machine learning. So, in general terms, Machine Learning is a result of the application of Artificial Learning. Let’s take the example of you shopping online — have you ever been in a situation where the app or website started recommending products that might in some way be associated or similar to the purchase you made? If yes, then you have seen machine learning in action. Even the “bought together” combination of products is another byproduct of machine learning.
 This is how companies target their audience, and divide people into various categories to serve them better, make their shopping experience tailored to their browsing behavior.
 Machine learning is merely based on predictions made based on experience. It enables machines to make data-driven decisions, which is more efficient than explicitly programming to carry out certain tasks. These algorithms are designed in a fashion that gives exposure to new data that can help organisations learn and improve their strategies.
