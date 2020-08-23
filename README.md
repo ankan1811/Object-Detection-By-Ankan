@@ -44,7 +44,7 @@ Fig 3.Still Image Object Detection
 Fig 4.Live Webcam Object Detection
 
 
-![](Images/hqdefault.jpg)
+![](Images/Objects2.jpg)
 
 
 C. Location
