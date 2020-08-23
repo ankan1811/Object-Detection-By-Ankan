@@ -37,12 +37,22 @@ Depending on your application, you can decide a cut-off threshold below which yo
 The cut-off you use should be based on whether you are more comfortable with false positives (objects that are wrongly identified, or areas of the image that are erroneously identified as objects when they are not), or false negatives (genuine objects that are missed because their confidence was low).
 For example, in the following image, a pear (which is not an object that the model was trained to detect) was misidentified as a "person". This is an example of a false positive that could be ignored by selecting an appropriate cut-off. In this case, a cut-off of 0.6 (or 60%) would comfortably exclude the false positive.
 
+Fig 3.Still Image Object Detection
+
+![](Images/hqdefault.jpg)
+
+Fig 4.Live Webcam Object Detection
+
+
+![](Images/hqdefault.jpg)
+
 
 C. Location
 For each detected object, the model will return an array of four numbers representing a bounding rectangle that surrounds its position. For the starter model we provide, the numbers are ordered as follows:
 [	top,	left,	bottom,	right	]
 
 The top value represents the distance of the rectangle’s top edge from the top of the image, in pixels. The left value represents the left edge’s distance from the left of the input image. The other values represent the bottom and right edges in a similar manner.
+
 
 II. WHY DO WE NEED OBJECT DETECTION?
 
