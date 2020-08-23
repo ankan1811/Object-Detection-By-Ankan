@@ -1,13 +1,24 @@
                                                       
                                                # OBJECT DETECTION USING TENSORFLOW
    # Object Detection using Tensorflow
-           #1st year student, Institute of Engineering and Management, Kolkata, West Bengal, India
+           #Ankan Pal ,1st year student, Institute of Engineering and Management, Kolkata, West Bengal, India
 ankan1811@gmail.com
  
 Abstract
 Real-time object detection and tracking is a vast, vibrant yet inconclusive and complex area of computer vision. Due to its increased utilization in surveillance, tracking system used in security and many others applications have propelled researchers to continuously devise more efficient and competitive algorithms. The latest research on this area has been making great progress in many directions.  In the current manuscript, we give an overview of the necessity of object detection in today’s computing systems, outline the current main research directions, discuss on how our API algorithm works, and discuss open problems and possible future directions.
-Key words: - Object Detection, Computer Vision, Tracking Systems, API algorithm
-![](Images/image001.jpg)
+Key words: - Object Detection, Computer Vision, Tracking Systems, API algorithm.
+
+![](Images/image001.png)
+
+Fig 1.Still Image Object Detection By Ankan:
+
+
+
+![](Images/image003.jpg)
+
+Fig 2.Live Webcam Object Detection of Anik (Ankan's friend)
+
+
 
 I. INTRODUCTION
 
@@ -38,12 +49,6 @@ II. WHY DO WE NEED OBJECT DETECTION?
 
 Object recognition allows robots and AI programs to pick out and identify objects from inputs like video and still camera images. Methods used for object identification include 3D models, component identification, edge detection and analysis of appearances from different angles. The first use case is a smarter retail checkout experience. This is a hot field right now after the announcement of Amazon Go stores.
 Stores can be designed so they have smart shelves that track what a customer is picking from them. I did this by building two object detection models — one that tracks hand and captures what the hand has picked. And the second independent model that monitors shelf space.  By using two models you minimise the error from a single approach.Another application of computer vision for retail checkout can be that instead of scanning items one by one at a checkout system , everything is placed together and cameras are able to detect and log everything. Maybe we don’t even need a checkout lane. Shopping carts can be equipped with cameras and you can simply walk out with your cart which can bill you as you step out of the store! Won’t this be cool! I used the API to design a “mini” model with 3 random items and the model could easily detect what was placed and in what quantity. See GIF below. Through various experimentation, I found that the API performs very well even on items that are only partially visible.	
- 
- 
-Fig 1. Object detection API tested in a still image
- 
-Fig 2. Object Detection API tested through Webcam
-
 
 III. A GENERAL FRAMEWORK FOR OBJECT DETECTION
 
