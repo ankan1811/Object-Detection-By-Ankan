@@ -11,8 +11,11 @@ Key words: - Object Detection, Computer Vision, Tracking Systems, API algorithm
 I. INTRODUCTION
 
 A.What is object detection?
+
 Given an image or a video stream, an object detection model can identify which of a known set of objects might be present and provide information about their positions within the image.
+
 An object detection model is trained to detect the presence and location of multiple classes of objects. For example, a model might be trained with images that contain various pieces of fruit, along with a label that specifies the class of fruit they represent (e.g. an apple, a banana, or a strawberry), and data specifying where each object appears in the image.
+
 When we subsequently provide an image to the model, it will output a list of the objects it detects, the location of a bounding box that contains each object, and a score that indicates the confidence that detection was correct.
 
 B. Confidence score
