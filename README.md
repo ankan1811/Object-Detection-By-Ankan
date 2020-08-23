@@ -1,6 +1,6 @@
                                                       
                                                # OBJECT DETECTION USING TENSORFLOW
-   # Object Detection using Tensorflow
+   # Object Detection using Tensorflow(By Ankan)
            #Ankan Pal ,1st year student, Institute of Engineering and Management, Kolkata, West Bengal, India
 ankan1811@gmail.com
  
