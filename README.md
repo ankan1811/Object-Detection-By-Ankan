@@ -90,7 +90,7 @@ So in this article, we will look at the TensorFlow API developed for the task of
 C. Packages imported description
 Pycocotools - Tools for working with the MSCOCO dataset.
 
-0s – The OS module in python provides functions for interacting with the operating system. OS, comes under Python's standard utility modules. This module provides a portable way of using operating system dependent functionality. Python os system input text to script.
+OS – The OS module in python provides functions for interacting with the operating system. OS, comes under Python's standard utility modules. This module provides a portable way of using operating system dependent functionality. Python os system input text to script.
 
 Pathlib – Object oriented filesystem path. This module offers classes representing filesystem paths with semantics appropriate for different operating systems. Path classes are divided between pure path which provide purely computational operations without I/O, and concrete path, which inherit from pure paths but also provide I/O operations.
 
